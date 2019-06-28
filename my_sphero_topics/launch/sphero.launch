@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="my_sphero_topics" type="cmd_vel_pub.py" name="cmd_vel__publisher_node" output="screen" />
+    <node pkg="my_sphero_topics" type="imu_topic_subscriber.py" name="imu_topic_subscriber" output="screen" />
+    <node pkg="my_sphero_topics" type="odom_topic_subscriber.py" name="odom_topic_subscriber" output="screen" />
+</launch>
